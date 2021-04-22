@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="atmconsultoria.cursoandroid.com.atmconsultoria.EmpresaActivity"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:background="@drawable/detalhe_empresa"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/empresa_detalhes"
+        android:id="@+id/textView"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_toEndOf="@+id/imageView2"
+        android:layout_marginBottom="23dp" />
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="525dp"
+        android:id="@+id/scrollView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Lorem ipsum fames dictumst posuere sociosqu himenaeos per porttitor justo tortor accumsan justo proin vehicula, ac interdum cursus class ullamcorper facilisis condimentum non condimentum nullam dictumst class. turpis ad molestie sapien himenaeos taciti curabitur morbi ut, mollis quam magna habitasse hac malesuada etiam pellentesque, vehicula nam porta fusce libero lorem euismod. aenean curabitur tristique condimentum etiam ullamcorper cras ornare molestie dictumst, augue fusce facilisis metus vitae ultricies velit volutpat pellentesque, scelerisque tellus curabitur interdum platea senectus donec quisque. adipiscing turpis egestas placerat fusce semper tincidunt, primis rhoncus blandit duis inceptos curabitur, eget aliquam curae himenaeos viverra.   	Nulla orci enim adipiscing sapien mi augue eleifend lorem lacus quis pellentesque tortor mauris magna enim, conubia quis pulvinar vestibulum conubia curabitur turpis metus molestie suspendisse erat dolor venenatis nostra. habitasse rutrum dui fringilla risus inceptos condimentum dictumst dictum class litora, diam donec elementum odio scelerisque convallis nec nibh eu ultrices, vulputate mattis himenaeos aenean ut sapien non primis cras. porttitor aliquam curae justo varius molestie nisi neque congue dolor primis aptent laoreet facilisis fermentum vivamus, nostra facilisis elit ultrices consequat venenatis netus vivamus sollicitudin eu dictum quam tortor. nec lacinia et suscipit tempus enim, scelerisque pharetra dui neque luctus, lectus netus eget scelerisque. "
+            android:id="@+id/textView2"
+            android:background="#efefef"
+            android:padding="@dimen/padding_padrao" />
+    </ScrollView>
+</RelativeLayout>
